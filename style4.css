@@ -1,0 +1,87 @@
+body{
+    background-color: rgb(26, 255, 255);
+    margin: 30px;
+    font-family: 'Poppins', sans-serif;
+
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navi{
+    display: flex;
+}
+/* .navi {
+    display: flex;
+    /* justify-content: space-evenly; */
+    /* align-items:start;  */
+    /* font-weight: 500;
+    list-style: none;
+    cursor: pointer;
+    gap: 70px;
+    margin-right: 450px;
+}
+.navi:hover{
+    text-decoration: underline;
+    font-weight: 900; 
+} */
+nav div button{
+    background-color: blue;
+    color: white;
+    display: flex;
+    padding: 8px 13px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    /* align-content: center; */
+    font-weight: 500;
+
+}
+nav div button:hover{
+    background-color: #fff;
+    color: black;
+    border: 1px solid black;
+    font-weight: 800;
+}
+.navi ul{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    gap: 70px;
+    font-weight: 500;
+    /* justify-content: space-evenly; */
+    cursor: pointer;
+}
+.navi ul:hover{
+    text-decoration: underline;
+    font-weight: 900;
+}
+
+section{
+    display: flex;
+    justify-content: space-between;
+}
+.section1 h1{
+    color: rgb(0, 0, 80);
+    font-size: 50px;
+}
+.section1 button{
+    background-color: blue;
+    color: white;
+    padding: 9px 15px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: 500;
+}
+.section1 button:hover{
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    font-weight: 800;
+}
+.section1 h1 span{
+    color: rgb(165, 5, 165);
+}
+
+
